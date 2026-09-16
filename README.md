@@ -7,6 +7,14 @@ business do differently?
 
 ![Dashboard](output/dashboard.png)
 
+### Power BI version
+
+An interactive version built in Power BI Desktop, with slicers for region, segment and product category.
+
+![Power BI dashboard](output/powerbi-dashboard.png)
+
+The .pbix file is in the repository root.
+
 ---
 
 ## The data
