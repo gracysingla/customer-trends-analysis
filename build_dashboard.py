@@ -60,9 +60,9 @@ def main():
                           hspace=0.6, wspace=0.34,
                           left=0.11, right=0.96, top=0.95, bottom=0.07)
 
-    # ---- headline ----
-    total_rev, orders, customers = q(conn, """
-        SELECT SUM(Revenue), COUNT(*), (SELECT COUNT(*) FROM customers) FROM orders
+# ---- headline ----
+    total_rev, orders, active_customers = q(conn, """
+        SELECT SUM(Revenue), COUNT(*), COUNT(DISTINCT CustomerID) FROM orders
     """)[0]
     aov = total_rev / orders
 
@@ -73,13 +73,13 @@ def main():
               fontsize=10, color=MUTED)
 
     for i, (label, value) in enumerate([
-        ("Revenue", f"{total_rev/10000000:.1f} Cr"),
+        ("Revenue", f"{total_rev/10000000:.2f} Cr"),
         ("Orders", f"{orders:,}"),
-        ("Customers", f"{customers:,}"),
-        ("Avg order", f"{aov/1000:.0f}k"),
+        ("Active Cust.", f"{active_customers:,}"),
+        ("Avg order", f"{aov/1000:.1f}k"),
     ]):
         x = 0.55 + i * 0.115
-        head.text(x, 0.72, value, fontsize=15, weight="bold", color=HI if i == 0 else INK)
+        head.text(x, 0.72, value, fontsize=14, weight="bold", color=HI if i == 0 else INK)
         head.text(x, 0.28, label, fontsize=8.5, color=MUTED)
 
     # ---- revenue over time ----
