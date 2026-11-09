@@ -13,7 +13,7 @@ DB = "sales.db"
 
 TABLES = {
     "customers": ("data/customers.csv", {"CustomerID", "Region", "Segment", "SignupDate"}),
-    "orders": ("data/orders.csv", {"OrderID", "CustomerID", "OrderDate", "Category", "Product"}),
+    "orders": ("data/orders.csv", {"OrderID", "CustomerID", "OrderDate", "Category", "Product", "Quantity", "UnitPrice", "Discount", "Revenue"}),
 }
 NUMERIC = {"Quantity", "UnitPrice", "Discount", "Revenue"}
 
