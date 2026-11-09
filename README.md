@@ -38,22 +38,17 @@ Covers January 2014 to December 2017. Total revenue $2,297,200.65.
 
 ## What I found
 
-**1. Revenue splits almost evenly across three categories — no single leader.** Technology brings in $836,154 (36.4%), Furniture $742,000 (32.3%), and Office
-Supplies $719,047 (31.3%). No category dominates the way a simpler story might
-suggest — the business isn't carried by one product line.
+**1. Corporate customers are 29.5% of active buyers but bring in 55.1% of revenue.**
+123 corporate customers generate ₹3.54 crore of the ₹6.43 crore total. Their average order is ₹43,844 against ₹14,114 for consumers — over three times larger. Consumers place more orders (1,432 vs 808), but small basket sizes dilute their overall impact.
 
-**2. Home Office is the smallest segment, but spends the most per order.** At $241 average order value, Home Office edges out Corporate ($234) and Consumer
-($224) — despite having the fewest customers (148) of the three segments. Segment
-size and segment value don't move together here.
+**2. Revenue grew steeply, then flattened.**
+Monthly revenue climbed from about ₹4 lakh in early 2024 to ₹50 lakh by mid-2025, then held roughly flat for the last six months. The growth came from the customer base expanding, not from customers spending more — average order value stayed around ₹25,000 throughout. That matters: the growth engine has stalled and nothing has replaced it.
 
-**3. Consumer drives half of total revenue, but through volume, not order size.** 409 consumers place 5,191 orders — more than double Corporate's order count — and
-generate 50.6% of all revenue. Their average order value is the lowest of the three
-segments, so the revenue comes from how often they buy, not how much each order is worth.
+**3. Furniture is nearly half of all revenue.**
+₹2.83 crore of ₹6.43 crore comes from one category, driven by high unit prices rather than volume. Stationery sells comparable order counts but brings in ₹13.8 lakh — about 2% of revenue. High order volume in a low-value category is a cost, not a win.
 
-**4. Revenue climbs sharply every September–November, in line with the US holiday
-shopping season.** The pattern repeats across all four years in the data. November 2017 was the single
-highest-revenue month on record at $118,448 — a genuine, recurring seasonal effect,
-not a one-off spike.
+**4. Regional revenue differences are mostly about customer count, not customer quality.**
+West leads total revenue (₹2.01 crore), but revenue per active customer is almost identical across West (₹1.59 lakh), South (₹1.60 lakh), and East (₹1.59 lakh). North is the outlier at ₹1.40 lakh. So the regions aren't performing differently — West simply has more customers.
 
 **What I'd recommend:** revenue per customer is close across all four regions
 ($2,781–$3,000), so regional differences in total revenue mostly come down to how
