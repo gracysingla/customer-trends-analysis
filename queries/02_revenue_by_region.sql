@@ -3,7 +3,7 @@
 
 SELECT
     c.Region,
-    COUNT(DISTINCT c.CustomerID)                  AS customers,
+    COUNT(DISTINCT c.CustomerID)                  AS active_customers,
     COUNT(o.OrderID)                              AS orders,
     ROUND(SUM(o.Revenue), 0)                      AS revenue,
     ROUND(SUM(o.Revenue) / COUNT(DISTINCT c.CustomerID), 0)
